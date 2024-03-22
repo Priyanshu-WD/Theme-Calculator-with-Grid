@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shortcut icon" href="Favicon-calculator-32.png" type="image/x-icon">
+    <title>Calculator || InternPe InternShip</title>
+  </head>
+  <body>
+    <main>
+      <section class="calculator-main">
+        <div class="theme">
+          <div class="title">
+            <h1 class="hero-title">Calc</h1>
+          </div>
+          <div class="hero-theme">
+            <div class="theme-name">theme</div>
+            <div class="hero-toggle">
+              <nav class="theme-navigation">
+                <ul class="toggle-theme">
+                  <li><span class="themeNumber" id="one">1</span></li>
+                  <li><span class="themeNumber" id="two">2</span></li>
+                  <li><span class="themeNumber" id="three">3</span></li>
+                </ul>
+              </nav>
+              <div class="btnToggle">
+                <button class="toggle-btn" id="tggleBTn"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <input
+            type="text"
+            name="result"
+            id="result"
+            placeholder="0"
+            readonly
+          />
+          <div class="digitsBtn" id="keypadPanel">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="del" id="del">DEL</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>+</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>-</button>
+            <button>.</button>
+            <button>0</button>
+            <button>/</button>
+            <button>*</button>
+            <button class="reset" id="reset">RESET</button>
+            <button class="equal" id="equal">=</button>
+          </div>
+      </section>
+    </main>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
